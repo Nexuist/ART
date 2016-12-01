@@ -3,8 +3,9 @@ head
 	title("ART: Applying Richters' Teachings")
 	meta(name = "viewport", content = "width=device-width, initial-scale=1.0")
 	link(rel = "stylesheet", href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
-	link(rel = "stylesheet", href = "	https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
+	link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
 body
+<<<<<<< HEAD
 	section.hero.is-medium-is-primary.is-bold
 		.hero-body
 			.container
@@ -21,3 +22,19 @@ body
 	//- 							.card-content
 	//- 								.content
 	//- 									p Author Man
+=======
+	each project in projects
+		.container
+			p.title project.name
+				each _ in Array(5)
+					.columns
+						each image in project.images
+							.column.is-3
+								.card
+									.card-image
+										img(src = image.path)
+									.card-content
+										.content
+											h1.title.is-4= image.title
+											h2.subtitle.is-5= image.author
+>>>>>>> 243d6cff2914979c4bcdd2a2f5a81af0a993a4ca
