@@ -1,2 +1,18 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
+html
+head
+	title("ART: Applying Richters' Teachings")
+	meta(name = "viewport", content = "width=device-width, initial-scale=1.0")
+	link(rel = "stylesheet", href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
+	link(rel = "stylesheet", href = "	https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
+body
+	.container
+			each _ in Array(5)
+				.columns
+					each _ in Array(4)
+						.column.is-3
+							.card
+								.card-image
+									img(src = "https://placehold.it/600x600")
+								.card-content
+									.content
+										p test
