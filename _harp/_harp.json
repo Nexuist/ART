@@ -1,10 +1,14 @@
 {
 	"globals": {
-		"images": [
+		"projects": [
 			{
-				"path": "",
-				"title": "",
-				"project": ""
+				"name": "",
+				"images": [
+					{
+						"path": "",
+						"title": ""
+					}
+				]
 			}
 		]
 	}
