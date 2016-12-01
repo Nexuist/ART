@@ -2,11 +2,36 @@
 	"globals": {
 		"projects": [
 			{
-				"name": "",
+				"name": "Boii",
 				"images": [
 					{
-						"path": "",
-						"author": ""
+						"path": "https://placehold.it/1200x1500",
+						"author": "Your Mother"
+					},
+					{
+						"path": "https://placehold.it/1200x1500",
+						"author": "Your Father"
+					},
+					{
+						"path": "https://placehold.it/1200x1500",
+						"author": "Your Brother"
+					}
+				]
+			},
+			{
+				"name": "Boii Version 2",
+				"images": [
+					{
+						"path": "https://placehold.it/1200x1500",
+						"author": "Your Grandmother"
+					},
+					{
+						"path": "https://placehold.it/1200x1500",
+						"author": "Your Grandfather"
+					},
+					{
+						"path": "https://placehold.it/1200x1500",
+						"author": "Your Grandbrother"
 					}
 				]
 			}
