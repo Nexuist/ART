@@ -7,7 +7,7 @@ head
 body
 	each project in projects
 		.container
-			p.title project.name
+			p.title.is-3 project.name
 				each _ in Array(5)
 					.columns
 						each image in project.images
@@ -17,5 +17,4 @@ body
 										img(src = image.path)
 									.card-content
 										.content
-											h1.title.is-4= image.title
-											h2.subtitle.is-5= image.author
+											h1.title.is-4= image.author
