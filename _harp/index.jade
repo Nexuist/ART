@@ -5,14 +5,9 @@ head
 	link(rel = "stylesheet", href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
 	link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
 body
-	section.hero.is-primary.is-bold.is-large
-		.hero-body
-			.container.is-text-centered
-				h1.title yis
-				h2.subtitle hello
 	each project in projects
 		.container
-			p.title project.name
+			p.title.is-3 project.name
 				each _ in Array(5)
 					.columns
 						each image in project.images
@@ -22,5 +17,4 @@ body
 										img(src = image.path)
 									.card-content
 										.content
-											h1.title.is-4= image.title
-											h2.subtitle.is-5= image.author
+											h1.title.is-4= image.author
