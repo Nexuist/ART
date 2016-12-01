@@ -10,15 +10,15 @@ body
 			.container
 				h1.title ART: Applying Richters' Teachings
 				h1.subtitle yes it's a great title we know
-	each project in projects
-		.container
-			p.title.is-3= project.name
-				.columns
-					each image in project.images
-						.column.is-3
-							.card
-								.card-image
-									img(src = image.path)
-								.card-content
-									.content
-										h1.title.is-4= image.author
+	.container
+		each project in projects
+				p.title.is-3= project.name
+					.columns
+						each image in project.images
+							.column.is-3
+								.card
+									.card-image
+										img(src = image.path)
+									.card-content
+										.content
+											h1.title.is-4= image.author
