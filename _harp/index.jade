@@ -1,7 +1,6 @@
 html
 head
 	title("ART: Applying Richters' Teachings")
-	meta(name = "viewport", content = "width=device-width, initial-scale=1.0")
 	link(rel = "stylesheet", href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
 	link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
 body
@@ -9,16 +8,31 @@ body
 		.hero-body
 			.container
 				h1.title ART: Applying Richters' Teachings
-				h1.subtitle yes it's a great title we know
-	.container
-		each project in projects
-				p.title.is-3= project.name
-					.columns
-						each image in project.images
-							.column.is-3
-								.card
-									.card-image
-										img(src = image.path)
-									.card-content
-										.content
-											h1.title.is-4= image.author
+				h1.subtitle It's a great title, we know
+	.container.is-fluid
+	each project in projects
+		.container.is-fluid
+			.content
+				br
+				h1.title= project.name
+			mixin card(i)
+				- image = project.images[i]
+				.card
+					.card-image
+						img(src = image.path)
+					.card-content
+						.content
+							h1.title= image.author
+			- length = project.images.length
+			- fours = length - (length % 4)
+			//- Display all the rows that evenly divide by 4
+			- for (i = 0; i < fours; i = i + 4)
+				.columns
+					- for (j = 0; j < 4; j++)
+						.column.is-3
+							+card(i + j)
+			//- Remainders
+			.columns
+				- for (i = 0; i < length - fours; i++)
+					.column.is-3
+						+card (fours + i)
