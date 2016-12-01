@@ -12,7 +12,7 @@ body
 				h1.subtitle yes it's a great title we know
 	each project in projects
 		.container
-			p.title.is-3 project.name
+			p.title.is-3= project.name
 				each _ in Array(5)
 					.columns
 						each image in project.images
