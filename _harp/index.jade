@@ -11,12 +11,13 @@ body
 		.hero-body
 			.container
 				h1.title.is-2 ART: Applying Richters' Teachings
-				h1.subtitle.is-3 It's a great title, we know
+				h1.subtitle.is-3 It's a great title, we know.
 	.container.is-fluid
 		each project in projects
 			.content
 				br
-				h1.title.is-3= project.name
+				strong 
+					h1.title.is-3= project.name
 			mixin card(i)
 				- image = project.images[i]
 				.card

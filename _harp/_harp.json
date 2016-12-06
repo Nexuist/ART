@@ -2,89 +2,89 @@
 	"globals": {
 		"projects": [
 			{
-				"name": "Boii",
+				"name": "Project 1",
 				"images": [
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Mother"
+						"path": "http://mylakealfred.com/wp-content/uploads/AC7_5371-1200x1500.jpg",
+						"author": "Spencer"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Mother"
+						"path": "https://www.brookings.edu/wp-content/uploads/2016/07/eisen.jpg",
+						"author": "Andi"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Mother"
+						"path": "http://www.sonos.org/images/samples/wheel2_g.jpg",
+						"author": "Mat"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Mother"
+						"path": "http://vignette3.wikia.nocookie.net/tekken/images/a/a5/HeihachiT5-1200x1500.jpg/revision/latest?cb=20121028034226&path-prefix=ru",
+						"author": "Neil"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Mother"
+						"path": "http://wrightandcompany.com/wp-content/uploads/2015/11/Johnny-Stamper-1200x1500.jpg",
+						"author": "David"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Mother"
+						"path": "http://www.litup.org.uk/wp-content/uploads/2016/08/Sara-Crowe-%C2%A9NikkiHolland-1200x1500.jpg",
+						"author": "Guy"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Father"
+						"path": "http://stevedimon.com/wp-content/uploads/2016/09/Performance-1200x1500.jpg",
+						"author": "Ziyon"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Brother"
+						"path": "https://www.qu.edu/content/dam/qu/photography/testimonials/SOL_faculty-herbst-1200x1500-02_Herbst.jpg",
+						"author": "Hannah"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Mother"
+						"path": "http://hellopurplefox.com/wp/wp-content/uploads/Jonathan1-1200x1500.jpg",
+						"author": "Chris"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Father"
+						"path": "http://paracletexp.com/wp-content/uploads/2016/07/15-20110409-CW-207-1200x1500.jpg",
+						"author": "Maurice"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Brother"
+						"path": "https://irp-cdn.multiscreensite.com/d8ed2965/dms3rep/multi/desktop/4_q9fSif1xSRKuiiRjJOzN-1200x1500.jpg",
+						"author": "Leroy"
 					}
 				]
 			},
 			{
-				"name": "Boii Version 2",
+				"name": "Project 2",
 				"images": [
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Grandmother"
+						"path": "http://16jeyeb7b6g3em6qw40h5d0f.wpengine.netdna-cdn.com/wp-content/uploads/2014/11/106-Outlier-OcoMerinoOxford-lookingout-1200x1500.jpg",
+						"author": "Frank"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Grandfather"
+						"path": "http://www.totpi.com/wp-content/uploads/2016/11/0202123-25-1200x1500.jpg",
+						"author": "Eren"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Grandbrother"
+						"path": "http://www.thestrongwomensclub.com/wp-content/uploads/2016/09/065-ann-mahoney-and-8211-olivia-on-the-walking-dead_thumbnail-1200x1500.png",
+						"author": "Lil Dummy"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Grandmother"
+						"path": "http://www.supertalk.fm/wp-content/uploads/2016/06/image1-3-1200x1500.jpg",
+						"author": "Carlos"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Grandfather"
+						"path": "https://format-com-cld-res.cloudinary.com/image/private/s--SMZ7bN-8--/c_limit,g_center,h_65535,w_2500/a_auto,fl_keep_iptc.progressive,q_95/v1/64ac3f1c3a2cee34f1b0e9ee975f9b41/IMG_1631.jpg",
+						"author": "Lauren"
 					},
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Grandbrother"
+						"path": "https://www.qu.edu/content/dam/qu/photography/s7_school-of-law/SOL-career-development-1200x1500-02_emergency.jpg",
+						"author": "Amanda"
 					}
 				]
 			},
 			{
-				"name": "Smol Boii",
+				"name": "Is this even a project?",
 				"images": [
 					{
-						"path": "https://placekitten.com/1200/1500",
-						"author": "Your Grandbrother"
+						"path": "https://irp-cdn.multiscreensite.com/d8ed2965/dms3rep/multi/desktop/amelie-gallery-06-1200x1500.dm.edit_QwBCv2.jpg",
+						"author": "Lone Soul"
 					}
 				]
 			}
