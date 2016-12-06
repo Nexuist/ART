@@ -10,13 +10,13 @@ body
 	section.hero.is-medium.is-primary.is-bold
 		.hero-body
 			.container
-				h1.title ART: Applying Richters' Teachings
-				h1.subtitle It's a great title, we know
+				h1.title.is-2 ART: Applying Richters' Teachings
+				h1.subtitle.is-3 It's a great title, we know
 	.container.is-fluid
 		each project in projects
 			.content
 				br
-				h1.title= project.name
+				h1.title.is-3= project.name
 			mixin card(i)
 				- image = project.images[i]
 				.card
@@ -24,7 +24,7 @@ body
 						img(src=image.path)
 					.card-content
 						.content
-							h1.title= image.author
+							h1.title.is-4= image.author
 			- length = project.images.length
 			- fours = length - (length % 4)
 			//- Display all the rows that evenly divide by 4
