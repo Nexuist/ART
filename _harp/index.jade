@@ -1,8 +1,8 @@
 html
 head
 	title("ART: Applying Richters' Teachings")
-	link(rel = "stylesheet", href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
-	link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css")
+	link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
 body
 	section.hero.is-medium.is-primary.is-bold
 		.hero-body
@@ -10,8 +10,7 @@ body
 				h1.title ART: Applying Richters' Teachings
 				h1.subtitle It's a great title, we know
 	.container.is-fluid
-	each project in projects
-		.container.is-fluid
+		each project in projects
 			.content
 				br
 				h1.title= project.name
@@ -19,7 +18,7 @@ body
 				- image = project.images[i]
 				.card
 					.card-image
-						img(src = image.path)
+						img(src=image.path)
 					.card-content
 						.content
 							h1.title= image.author
