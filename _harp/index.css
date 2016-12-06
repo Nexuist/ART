@@ -5,3 +5,7 @@
 strong > h1.title {
 	font-weight: 400;
 }
+
+.modal h1 {
+	color: white;
+}
